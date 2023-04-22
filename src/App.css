@@ -1,0 +1,136 @@
+.navbar{
+  /* background-color: transparent; */
+  box-shadow: 0px 0px 7px;
+}
+.stylesfont{
+  font-family: 'Satisfy', cursive;
+}
+.welcomefont{
+  font-family: 'Russo One', sans-serif;
+}
+body{
+  font-family: 'Titillium Web', sans-serif;
+  z-index: 2;
+  overflow-x: hidden;
+}
+.main{
+  animation: zoom-in-fade 2s ease-in-out;
+  z-index: -10rem;
+}
+@keyframes zoom-in-fade {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.overlay{
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+.modal{
+  z-index: 2;
+}
+.welcometext{
+  background-image: url("./assets/funkemain.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.footer{
+  background-image: url("./assets/funkefooter.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.face1{
+  background-image: url("./assets/funkeface1.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.face2{
+  background-image: url("./assets/funkeface2.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.overlay2{
+  background-color: rgba(0,0,0,0.7);
+  z-index: 1;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+  transition: all 1s ease-in-out;
+  z-index: 2000;
+}
+.welcomeshow{
+  filter: blur(0);
+  transition: all 1s ease-in-out;
+}
+.welcome{
+  transition: all 1s;
+  filter: blur(5px);
+}
+.no{
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateY(100%)
+}
+.nav-image{
+  z-index: -100000;
+}
+.nav{
+  z-index: 1000000;
+}
+.loading-spinner {
+  width: 15px;
+  height: 15px;
+  margin-top: 1rem;
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #383636; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.funke:hover{
+  animation: scale 2s linear;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.03);
+  }
+}
+.head{
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: scale(0);
+}
+
+.showhead{
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+  transition: all 1s;
+}
