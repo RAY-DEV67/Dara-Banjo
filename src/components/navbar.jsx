@@ -6,13 +6,19 @@ import { useState } from "react";
 export function Navbar() {
 const [showMobile, setshowMobile] = useState(false);
 
-    return ( <div className=" navbar p-[0.5rem]">
-        <div className="flex justify-between mx-[1rem]">
-        <svg onClick={() => {
-            setshowMobile(true)
-        }} width="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Menu / Hamburger_LG"> <path id="Vector" d="M3 17H21M3 12H21M3 7H21" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g> </g></svg>
+    return ( <div className=" navbar bg-[#000009] text-[#f3f3f3] p-[0.5rem]">
+        <div className="flex justify-between items-center mx-[1rem]">
+        
+        <a href="https://www.instagram.com/direct/t/340282366841710300949128115078988223791" target="_Blank" className="flex flex-col items-center"> 
+                <button
+                  to="/Styles"
+                  className="border text-[3vw] bg-[#d9d9d9] border-white font-bold text-black text-xl py-[0.1rem] px-[0.8rem]"
+                >
+                  Book me
+                </button>
+              </a>
       <Link to="/" className="flex flex-col items-end">
-     <p>FUNKE THE MUSE</p>
+     <p className="stylesfont">FUNKE THE MUSE</p>
       </Link>
         </div>
         <div
