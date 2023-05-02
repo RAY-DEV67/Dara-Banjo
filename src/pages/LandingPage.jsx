@@ -152,10 +152,10 @@ export function LandingPage() {
       <div className="bg-[#000009] relative">
         <div className="welcometext h-[100vh] flex flex-col items-center justify-center">
           <TextAnimatedDiv>
-            <p className="text-2xl text-black font-bold">Waleadebisiphotography</p>
+            <p className="text-2xl text-[#581a06] font-bold">Waleadebisiphotography</p>
           </TextAnimatedDiv>
           <AnimatedDiv>
-          <p className="text-center text-3xl text-black mt-[1rem]">PROTFOLIO</p>
+          <p className="text-center text-3xl text-[#581a06] mt-[1rem]">PROTFOLIO</p>
             <a
               href="https://www.instagram.com/waleadebisiphotography/"
               target="_Blank"
