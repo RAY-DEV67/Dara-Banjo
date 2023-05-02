@@ -35,14 +35,14 @@ body{
   z-index: 2;
 }
 .welcometext{
-  background-image: url("./assets/funkefooter.jpg");
+  background-image: url("./assets/walemain.jpg");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
 .footer{
-  background-image: url("./assets/funke24.jpg");
+  background-image: url("./assets/walefooter.jpg");
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,4 +149,72 @@ body{
 }
 .funke{
   box-shadow: 0px 0px 7px;
+}
+
+.slider, .slider2{
+  height: 250px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.slide-track{
+  display:flex;
+  width: calc(250px * 20);
+  animation: scroll 40s linear infinite;
+}
+.slide-track2{
+  display:flex;
+  width: calc(250px * 20);
+  animation: scroll2 40s linear infinite;
+}
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(calc(-250px * 10));
+  }
+}
+@keyframes scroll2{
+  0%{
+    transform: translateX(calc(-250px * 10));
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+.slide-track:hover, .slide-track2:hover{
+  animation-play-state: paused;
+}
+.slide , .slide2{
+  /* height: 30vh; */
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+h5:hover{
+  transform: translateZ(20px);
+  transition: transform 1s;
+}
+.slider::before , .slider::after, .slider2::before , .slider2::after{
+  background: linear-gradient(to right, #151515 0% , rgba(255,255,255,0) 100%);
+  content:'';
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+.slider::before, .slider2::before{
+  left: 0;
+  top: 0;
+}
+.slider::after, .slider2::after{
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
 }

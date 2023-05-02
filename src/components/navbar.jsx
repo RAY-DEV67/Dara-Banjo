@@ -6,7 +6,7 @@ import { useState } from "react";
 export function Navbar() {
 const [showMobile, setshowMobile] = useState(false);
 
-    return ( <div className=" navbar bg-[#000009] text-[#f3f3f3] p-[0.5rem]">
+    return ( <div className=" navbar bg-transparent text-[#f3f3f3] p-[0.5rem]">
         <div className="flex justify-between items-center mx-[1rem]">
         
         <a href="https://www.instagram.com/direct/t/340282366841710300949128115078988223791" target="_Blank" className="flex flex-col items-center"> 
