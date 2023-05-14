@@ -151,11 +151,12 @@ export function LandingPage() {
     <div className="bg-[#000009] text-[#f3f3f3]">
       <div className="bg-[#000009] relative">
         <div className="welcometext h-[100vh] flex flex-col items-center justify-center">
+        <div className="overlay w-[100vw] absolute top-0 h-[100vh]"></div>
           <TextAnimatedDiv>
-            <p className="text-2xl text-[#581a06] font-bold">Waleadebisiphotography</p>
+            <p className="text-2xl text-[#f9f9f9] font-bold">Waleadebisiphotography</p>
           </TextAnimatedDiv>
           <AnimatedDiv>
-          <p className="text-center text-3xl text-[#581a06] mt-[1rem]">PROTFOLIO</p>
+          <p className="text-center text-3xl text-[#f9f9f9] mt-[1rem]">PROTFOLIO</p>
             <a
               href="https://www.instagram.com/waleadebisiphotography/"
               target="_Blank"
