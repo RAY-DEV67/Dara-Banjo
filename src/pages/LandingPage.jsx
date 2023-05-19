@@ -151,12 +151,184 @@ export function LandingPage() {
     <div className="bg-[#000009] text-[#f3f3f3]">
       <div className="bg-[#000009] relative">
         <div className="welcometext h-[100vh] flex flex-col items-center justify-center">
-        <div className="overlay w-[100vw] absolute top-0 h-[100vh]"></div>
-          <TextAnimatedDiv>
-            <p className="text-2xl text-[#f9f9f9] font-bold">Waleadebisiphotography</p>
-          </TextAnimatedDiv>
+          <div className="overlay w-[100vw] absolute top-0 h-[100vh]"></div>
+          <div className="dara-main">
+            <div className="dara-slidetrack">
+              {/* SLIDES///// */}
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className="dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className="dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              {/* SAME SLIDES (DOUBLED)//////// */}
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className=" dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className="dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className="dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+
+              <div className="dara-slide softtools">
+                <h5>Dara</h5>
+              </div>
+            </div>
+          </div>
+
+          <div className="banjo-main">
+            <div className="banjo-slidetrack">
+              {/* SLIDES///// */}
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className="banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className="banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              {/* SAME SLIDES (DOUBLED)//////// */}
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className=" banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className="banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className="banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+
+              <div className="banjo-slide softtools">
+                <h5>Banjo</h5>
+              </div>
+            </div>
+          </div>
+
           <AnimatedDiv>
-          <p className="text-center text-3xl text-[#f9f9f9] mt-[1rem]">PROTFOLIO</p>
             <a
               href="https://www.instagram.com/waleadebisiphotography/"
               target="_Blank"
@@ -164,7 +336,7 @@ export function LandingPage() {
             >
               <button
                 to="/Styles"
-                className="border text-[3vw] bg-[#d9d9d9] border-white font-bold text-black text-xl py-[0.3rem] px-[1rem]"
+                className="border text-[3vw] hidden bg-[#d9d9d9] border-white font-bold text-black text-xl py-[0.3rem] px-[1rem]"
               >
                 Work with me
               </button>
@@ -949,11 +1121,14 @@ export function LandingPage() {
       </div>
 
       <div className="h-[100vh] flex flex-col items-center mt-[1rem] text-[#000009] font-bold justify-center footer">
-      <h3 className="text-xl text-center mb-[1rem] mt-[1rem] font-bold">
-            For Bookings & Enquires
-          </h3>
+        <h3 className="text-xl text-center mb-[1rem] mt-[1rem] font-bold">
+          For Bookings & Enquires
+        </h3>
         <div className="flex justify-center items-center">
-          <a href="https://www.instagram.com/waleadebisiphotography/" target="_Blank">
+          <a
+            href="https://www.instagram.com/waleadebisiphotography/"
+            target="_Blank"
+          >
             <svg
               width="20px"
               viewBox="0 0 20 20"
@@ -1051,7 +1226,7 @@ export function LandingPage() {
               </g>
             </svg>
           </a>
-          </div>
+        </div>
       </div>
     </div>
   );
