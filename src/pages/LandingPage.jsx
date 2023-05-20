@@ -1,4 +1,40 @@
 import { CSSTransition } from "react-transition-group";
+
+////////// RUGER /////////////////
+
+import ruger1 from "../assets/ruger1.jpg";
+import ruger2 from "../assets/ruger2.jpg";
+import ruger3 from "../assets/ruger3.jpg";
+import ruger4 from "../assets/ruger4.jpg";
+import ruger5 from "../assets/ruger5.jpg";
+import ruger6 from "../assets/ruger6.jpg";
+import ruger7 from "../assets/ruger7.jpg";
+import ruger8 from "../assets/ruger8.jpg";
+import ruger9 from "../assets/ruger9.jpg";
+import ruger10 from "../assets/ruger10.jpg";
+import ruger11 from "../assets/ruger11.jpg";
+import ruger12 from "../assets/ruger12.jpg";
+import rugersingle from "../assets/rugersingle.jpg";
+
+/////////////////DAVIDO///////////////////
+
+import davido1 from "../assets/davido1.jpg";
+import davido2 from "../assets/davido2.jpg";
+import davido3 from "../assets/davido3.jpg";
+import davido4 from "../assets/davido4.jpg";
+import davido5 from "../assets/davido5.jpg";
+import davido6 from "../assets/davido6.jpg";
+import davido7 from "../assets/davido7.jpg";
+import davido8 from "../assets/davido8.jpg";
+
+////////////////ZLATAN//////////////////
+import zlatan1 from "../assets/zlatan1.jpg";
+import zlatan2 from "../assets/zlatan2.jpg";
+import zlatan3 from "../assets/zlatan3.jpg";
+import zlatan4 from "../assets/zlatan4.jpg";
+import zlatan5 from "../assets/zlatan5.jpg";
+import zlatan6 from "../assets/zlatan6.jpg";
+
 import moon1 from "../assets/moon1.jpg";
 import moon2 from "../assets/moon2.jpg";
 import moon3 from "../assets/moon3.jpg";
@@ -149,9 +185,18 @@ const TextAnimatedDiv = ({ children }) => {
 
 export function LandingPage() {
   const [showText, setShowText] = useState(false);
+  const [portfolio, setportfolio] = useState(false);
+  const [banjo, setbanjo] = useState(false);
 
   useEffect(() => {
     setShowText(true);
+    setTimeout(() => {
+      setbanjo(true);
+    }, 1000);
+    setTimeout(() => {
+      setportfolio(true);
+    }, 2000);
+
   }, []);
 
   return (
@@ -159,24 +204,25 @@ export function LandingPage() {
       <div className="bg-[#000009] relative">
         <div className="welcometext h-[100vh] flex flex-col items-start justify-start">
           <div className="overlay w-[100vw] absolute top-0 h-[100vh]"></div>
-          <div>
-            <p className="daratype text-[8vw] w-[50vw] ml-[1rem]">
+          <div className="flex flex-col w-[80vw]">
+            <div className="text-[8vw] w-[50vw] ml-[1rem]">
               {" "}
-              <span className="text-[20vw] mr-[-0.5rem]">D</span>ara{" "}
-              <span className="block text-end mt-[-8vh]">
+<p className=" daratype">              <span className="text-[20vw] mr-[-0.5rem]">D</span>ara</p>
+              <span className={banjo ? "block text-end mt-[-11vh] daratype" : "hidden"}>
                 <span className="text-[20vw] mr-[-0.5rem]">B</span>anjo
               </span>
-            </p>
+            </div>
+            <p className={portfolio ? "text-end mt-[-11vh] portfolio text-[8vw]" : "hidden"}><span className="text-[20vw] mr-[-0.5rem]">P</span>ortfolio</p>
           </div>
           <AnimatedDiv>
             <a
-              href="https://www.instagram.com/waleadebisiphotography/"
+              href="https://www.instagram.com/dara_banjo"
               target="_Blank"
               className="flex flex-col items-center w-[100vw] h-[90vh] justify-center mt-[1rem]"
             >
               <button
                 to="/Styles"
-                className="border text-[3vw] bg-[#fec310] border-black font-bold text-black text-xl py-[0.3rem] px-[1rem]"
+                className="border text-[3vw] bg-[#fec310] rounded-[20px] border-black font-bold text-black text-xl py-[0.3rem] px-[1rem]"
               >
                 Work with me
               </button>
@@ -277,416 +323,382 @@ export function LandingPage() {
         <div className="flex flex-wrap gap-3 mt-[1rem] items-center justify-center">
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale1}
-              alt="Wale"
+              src={ruger1}
+              alt="Ruger"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale2}
-              alt="Wale"
+              src={ruger2}
+              alt="Ruger"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale3}
-              alt="Wale"
+              src={ruger3}
+              alt="Ruger"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale4}
-              alt="Wale"
+              src={ruger4}
+              alt="Ruger"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale5}
-              alt="Wale"
+              src={ruger5}
+              alt="Ruger"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale6}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale7}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale8}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale9}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale10}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale11}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale12}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale13}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale14}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale15}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale16}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale17}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale18}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale19}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale20}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale21}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale22}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale23}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale24}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale25}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale26}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale27}
-              alt="Wale"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={wale28}
-              alt="Wale"
+              src={ruger6}
+              alt="Ruger"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
         </div>
 
-        <TextAnimatedDiv>
-          <p className=" text-[7vw] mt-[2rem] lg:text-[3vw] text-[#d9d9d9] text-center">
-            Bad Boy The Movie
-          </p>
-        </TextAnimatedDiv>
+        <img
+              src={rugersingle}
+              alt="Ruger"
+              className="lg:h-[80vh] my-[1rem]"
+            />
 
-        <div className="slider">
-          <div className="slide-track">
+
+<div className="flex flex-wrap gap-3 mt-[1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={ruger7}
+              alt="Ruger"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={ruger8}
+              alt="Ruger"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={ruger9}
+              alt="Ruger"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={ruger10}
+              alt="Ruger"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={ruger11}
+              alt="Ruger"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={ruger12}
+              alt="Ruger"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
             {/* SLIDES///// */}
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy1}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy2}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy3}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy4}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy5}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy6}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className="dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy7}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className="dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy8}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy9}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy10}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
             {/* SAME SLIDES (DOUBLED)//////// */}
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy1}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy2}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy3}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy4}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy5}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy6}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy7}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className=" dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy8}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className="dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy9}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className="dara-slide softtools">
+              <h5>Davido</h5>
             </div>
 
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={badboy10}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
+            <div className="dara-slide softtools">
+              <h5>Davido</h5>
             </div>
           </div>
         </div>
 
+
+        <div className="flex flex-wrap gap-3 mt-[1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido1}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido2}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido3}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido4}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido5}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido6}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido7}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={davido8}
+              alt="Davido"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Zlatan</h5>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="flex flex-wrap gap-3 mt-[1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={zlatan1}
+              alt="Zlatan"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={zlatan2}
+              alt="Zlatan"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={zlatan3}
+              alt="Zlatan"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={zlatan4}
+              alt="Zlatan"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={zlatan5}
+              alt="Zlatan"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={zlatan6}
+              alt="Zlatan"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+        
         <TextAnimatedDiv>
           <p className=" text-[7vw] mt-[2rem] lg:text-[3vw] text-[#d9d9d9] text-center">
             On The Moon The Movie
