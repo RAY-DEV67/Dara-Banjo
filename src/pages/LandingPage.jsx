@@ -1,3 +1,4 @@
+import { CSSTransition } from "react-transition-group";
 import moon1 from "../assets/moon1.jpg";
 import moon2 from "../assets/moon2.jpg";
 import moon3 from "../assets/moon3.jpg";
@@ -147,196 +148,35 @@ const TextAnimatedDiv = ({ children }) => {
 };
 
 export function LandingPage() {
+  const [showText, setShowText] = useState(false);
+
+  useEffect(() => {
+    setShowText(true);
+  }, []);
+
   return (
     <div className="bg-[#000009] text-[#f3f3f3]">
       <div className="bg-[#000009] relative">
-        <div className="welcometext h-[100vh] flex flex-col items-center justify-center">
+        <div className="welcometext h-[100vh] flex flex-col items-start justify-start">
           <div className="overlay w-[100vw] absolute top-0 h-[100vh]"></div>
-          <div className="dara-main">
-            <div className="dara-slidetrack">
-              {/* SLIDES///// */}
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className="dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className="dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              {/* SAME SLIDES (DOUBLED)//////// */}
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className=" dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className="dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className="dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-
-              <div className="dara-slide softtools">
-                <h5>Dara</h5>
-              </div>
-            </div>
+          <div>
+            <p className="daratype text-[8vw] w-[50vw] ml-[1rem]">
+              {" "}
+              <span className="text-[20vw] mr-[-0.5rem]">D</span>ara{" "}
+              <span className="block text-end mt-[-8vh]">
+                <span className="text-[20vw] mr-[-0.5rem]">B</span>anjo
+              </span>
+            </p>
           </div>
-
-          <div className="banjo-main">
-            <div className="banjo-slidetrack">
-              {/* SLIDES///// */}
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className="banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className="banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              {/* SAME SLIDES (DOUBLED)//////// */}
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className=" banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className="banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className="banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-
-              <div className="banjo-slide softtools">
-                <h5>Banjo</h5>
-              </div>
-            </div>
-          </div>
-
           <AnimatedDiv>
             <a
               href="https://www.instagram.com/waleadebisiphotography/"
               target="_Blank"
-              className="flex flex-col items-center mt-[1rem]"
+              className="flex flex-col items-center w-[100vw] h-[90vh] justify-center mt-[1rem]"
             >
               <button
                 to="/Styles"
-                className="border text-[3vw] hidden bg-[#d9d9d9] border-white font-bold text-black text-xl py-[0.3rem] px-[1rem]"
+                className="border text-[3vw] bg-[#fec310] border-black font-bold text-black text-xl py-[0.3rem] px-[1rem]"
               >
                 Work with me
               </button>
@@ -346,9 +186,94 @@ export function LandingPage() {
         {/* <div className="overlay2 absolute top-0 h-[100%] w-[100vw]"></div> */}
       </div>
       <div className="mt-[2rem]">
-        <h2 className="text-center text-3xl lg:text-[4rem] lg:mb-[1rem] welcomefont">
-          GALLERY
-        </h2>
+        <div className="dara-main">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5>Ruger</h5>
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-wrap gap-3 mt-[1rem] items-center justify-center">
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
