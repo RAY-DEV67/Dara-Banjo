@@ -77,14 +77,14 @@ import pato8 from "../assets/pato8.jpg";
 
 ////////////////////////Hennessy////////////////
 
-import Hennessy3 from "../assets/Hennessy3.jpg";
-import Hennessy4 from "../assets/Hennessy4.jpg";
-import Hennessy5 from "../assets/Hennessy5.jpg";
-import Hennessy6 from "../assets/Hennessy6.jpg";
-import Hennessy7 from "../assets/Hennessy7.jpg";
-import Hennessy8 from "../assets/Hennessy8.jpg";
-import Hennessy9 from "../assets/Hennessy9.jpg";
-import Hennessy10 from "../assets/Hennessy10.jpg";
+// import Hennessy3 from "../assets/Hennessy3.jpg";
+// import Hennessy4 from "../assets/Hennessy4.jpg";
+// import Hennessy5 from "../assets/Hennessy5.jpg";
+// import Hennessy6 from "../assets/Hennessy6.jpg";
+// import Hennessy7 from "../assets/Hennessy7.jpg";
+// import Hennessy8 from "../assets/Hennessy8.jpg";
+// import Hennessy9 from "../assets/Hennessy9.jpg";
+// import Hennessy10 from "../assets/Hennessy10.jpg";
 
 /////////////////////// JHONNY DRILLE /////////////////////
 
@@ -1286,10 +1286,9 @@ export function LandingPage() {
           </div>
         </div>
 
-
+{/* 
         <div className="dara-main mt-[2rem]">
           <div className="dara-slidetrack">
-            {/* SLIDES///// */}
 
             <div className=" dara-slide softtools">
               <h5 className="text-[4vw]">Hennessy</h5>
@@ -1331,7 +1330,7 @@ export function LandingPage() {
               <h5 className="text-[4vw]">Hennessy</h5>
             </div>
 
-            {/* SAME SLIDES (DOUBLED)//////// */}
+
 
             <div className=" dara-slide softtools">
               <h5 className="text-[4vw]">Hennessy</h5>
@@ -1433,7 +1432,7 @@ export function LandingPage() {
             />
           </div>
         </div>
-
+ */}
         
         <div className="dara-main mt-[2rem]">
           <div className="dara-slidetrack">
