@@ -1,5 +1,38 @@
 import { CSSTransition } from "react-transition-group";
 
+/////////////////// ART NUDE ///////////////////
+
+import nude1 from "../assets/nude1.jpg";
+import nude2 from "../assets/nude2.jpg";
+import nude3 from "../assets/nude3.jpg";
+import nude4 from "../assets/nude4.jpg";
+import nude5 from "../assets/nude5.jpg";
+import nude6 from "../assets/nude6.jpg";
+import nude7 from "../assets/nude7.jpg";
+import nude8 from "../assets/nude8.jpg";
+import nude9 from "../assets/nude9.jpg";
+import nude10 from "../assets/nude10.jpg";
+import nude11 from "../assets/nude11.jpg";
+import nude12 from "../assets/nude12.jpg";
+import nude13 from "../assets/nude13.jpg";
+import nude14 from "../assets/nude14.jpg";
+import nude15 from "../assets/nude15.jpg";
+import nude16 from "../assets/nude16.jpg";
+import nude17 from "../assets/nude17.jpg";
+import nude18 from "../assets/nude18.jpg";
+import nude19 from "../assets/nude19.jpg";
+import nude20 from "../assets/nude20.jpg";
+import nude22 from "../assets/nude22.jpg";
+import nude23 from "../assets/nude23.jpg";
+import nude24 from "../assets/nude24.jpg";
+import nude25 from "../assets/nude25.jpg";
+import nude26 from "../assets/nude26.jpg";
+import nude27 from "../assets/nude27.jpg";
+import nude28 from "../assets/nude28.jpg";
+import nude29 from "../assets/nude29.jpg";
+import daranude from "../assets/daranude.jpg";
+import nudemain from "../assets/nudemain.jpg";
+
 ///////////////// CAVEMEN ///////////////
 
 import cm1 from "../assets/cm1.webp";
@@ -116,74 +149,6 @@ import magixx8 from "../assets/magixx8.jpg";
 import bbt1 from "../assets/bbt1.jpg";
 import bbt2 from "../assets/bbt2.jpg";
 
-import moon1 from "../assets/moon1.jpg";
-import moon2 from "../assets/moon2.jpg";
-import moon3 from "../assets/moon3.jpg";
-import moon4 from "../assets/moon4.jpg";
-import moon5 from "../assets/moon5.jpg";
-import moon6 from "../assets/moon6.jpg";
-import moon7 from "../assets/moon7.jpg";
-import moon8 from "../assets/moon8.jpg";
-import moon9 from "../assets/moon9.jpg";
-import moon10 from "../assets/moon10.jpg";
-import badboy1 from "../assets/badboy1.jpg";
-import badboy2 from "../assets/badboy2.jpg";
-import badboy3 from "../assets/badboy3.jpg";
-import badboy4 from "../assets/badboy4.jpg";
-import badboy5 from "../assets/badboy5.jpg";
-import badboy6 from "../assets/badboy6.jpg";
-import badboy7 from "../assets/badboy7.jpg";
-import badboy8 from "../assets/badboy8.jpg";
-import badboy9 from "../assets/badboy9.jpg";
-import badboy10 from "../assets/badboy10.jpg";
-import wale1 from "../assets/wale1.jpg";
-import wale2 from "../assets/wale2.jpg";
-import wale3 from "../assets/wale3.jpg";
-import wale4 from "../assets/wale4.jpg";
-import wale5 from "../assets/wale5.jpg";
-import wale6 from "../assets/wale6.jpg";
-import wale7 from "../assets/wale7.jpg";
-import wale8 from "../assets/wale8.jpg";
-import wale9 from "../assets/wale9.jpg";
-import wale10 from "../assets/wale10.jpg";
-import wale11 from "../assets/wale11.jpg";
-import wale12 from "../assets/wale12.jpg";
-import wale13 from "../assets/wale13.jpg";
-import wale14 from "../assets/wale14.jpg";
-import wale15 from "../assets/wale15.jpg";
-import wale16 from "../assets/wale16.jpg";
-import wale17 from "../assets/wale17.jpg";
-import wale18 from "../assets/wale18.jpg";
-import wale19 from "../assets/wale19.jpg";
-import wale20 from "../assets/wale20.jpg";
-import wale21 from "../assets/wale21.jpg";
-import wale22 from "../assets/wale22.jpg";
-import wale23 from "../assets/wale23.jpg";
-import wale24 from "../assets/wale24.jpg";
-import wale25 from "../assets/wale25.jpg";
-import wale26 from "../assets/wale26.jpg";
-import wale27 from "../assets/wale27.jpg";
-import wale28 from "../assets/wale28.jpg";
-import wale29 from "../assets/wale29.jpg";
-import wale30 from "../assets/wale30.jpg";
-import wale31 from "../assets/wale31.jpg";
-import wale32 from "../assets/wale32.jpg";
-import wale33 from "../assets/wale33.jpg";
-import wale34 from "../assets/wale34.jpg";
-import wale35 from "../assets/wale35.jpg";
-import wale36 from "../assets/wale36.jpg";
-import wale37 from "../assets/wale37.jpg";
-import wale38 from "../assets/wale38.jpg";
-import wale39 from "../assets/wale39.jpg";
-import wale40 from "../assets/wale40.jpg";
-import wale41 from "../assets/wale41.jpg";
-import wale42 from "../assets/wale42.jpg";
-import wale43 from "../assets/wale43.jpg";
-import wale44 from "../assets/wale44.jpg";
-import wale45 from "../assets/wale45.jpg";
-import wale46 from "../assets/wale46.jpg";
-import wale47 from "../assets/wale47.jpg";
-import wale48 from "../assets/wale48.jpg";
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 
@@ -2045,373 +2010,244 @@ export function LandingPage() {
           </div>
         </div>
 
-       
-        
-        <TextAnimatedDiv>
-          <p className=" text-[7vw] mt-[2rem] lg:text-[3vw] text-[#d9d9d9] text-center">
-            On The Moon The Movie
+        <div className="bg-[#000009] relative mt-[2rem]">
+        <div className="nude h-[100vh] flex flex-col items-start justify-start">
+          <div className="overlay w-[100vw] absolute top-0 h-[100vh]"></div>
+         
+          <TextAnimatedDiv>
+            <div
+              className="flex flex-col items-center w-[100vw] h-[90vh] justify-center mt-[1rem]"
+            >
+              <p className="text-[#fec310] darafont text-[10vw] mt-[2rem] lg:text-[3vw] text-[#d9d9d9] text-center">
+            ArtNude
           </p>
-        </TextAnimatedDiv>
-
-        <div className="slider">
-          <div className="slide-track">
-            {/* SLIDES///// */}
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon1}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
             </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon2}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon3}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon4}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon5}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon6}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon7}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon8}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon9}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon10}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            {/* SAME SLIDES (DOUBLED)//////// */}
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon1}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon2}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon3}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon4}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon5}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon6}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon7}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon8}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon9}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-
-            <div className="slide softtools">
-              <h5>
-                <img
-                  src={moon10}
-                  alt="Wale"
-                  className="funke lg:h-[80vh] w-[45vw]"
-                />
-              </h5>
-            </div>
-          </div>
+          </TextAnimatedDiv>
         </div>
+      </div>
+
 
         <div className="flex flex-wrap gap-3 mt-[3rem] items-center justify-center">
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale29}
-              alt="Wale"
+              src={nudemain}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale30}
-              alt="Wale"
+              src={daranude}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale31}
-              alt="Wale"
+              src={nude1}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale32}
-              alt="Wale"
+              src={nude2}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale33}
-              alt="Wale"
+              src={nude3}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale34}
-              alt="Wale"
+              src={nude4}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale35}
-              alt="Wale"
+              src={nude5}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale36}
-              alt="Wale"
+              src={nude6}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale37}
-              alt="Wale"
+              src={nude7}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale38}
-              alt="Wale"
+              src={nude8}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale39}
-              alt="wale"
+              src={nude9}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale40}
-              alt="Wale"
+              src={nude10}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale41}
-              alt="Wale"
+              src={nude11}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale42}
-              alt="Wale"
+              src={nude12}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale43}
-              alt="Wale"
+              src={nude13}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale44}
-              alt="Wale"
+              src={nude14}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale45}
-              alt="Wale"
+              src={nude15}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale46}
-              alt="Wale"
+              src={nude16}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale47}
-              alt="Wale"
+              src={nude17}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={wale48}
-              alt="Wale"
+              src={nude18}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div><div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude19}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude20}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude22}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude23}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude24}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude25}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude26}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude27}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude28}
+              alt="Art Nude"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={nude29}
+              alt="Art Nude"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
         </div>
       </div>
 
-      <div className="h-[100vh] flex flex-col items-center mt-[1rem] text-[#000009] font-bold justify-center footer">
-        <h3 className="text-xl text-center mb-[1rem] mt-[1rem] font-bold">
+      <div className="h-[100vh] flex flex-col items-center mt-[1rem] text-[#fec310] font-bold justify-center footer">
+        <TextAnimatedDiv>
+        <h3 className="text-xl darafont text-center mb-[1rem] mt-[1rem] font-bold">
           For Bookings & Enquires
         </h3>
         <div className="flex justify-center items-center">
           <a
-            href="https://www.instagram.com/waleadebisiphotography/"
+            href="https://www.instagram.com/dara_banjo"
             target="_Blank"
           >
             <svg
@@ -2461,7 +2297,7 @@ export function LandingPage() {
             </svg>
           </a>
           <a
-            href="https://twitter.com/waleadebisip"
+            href="https://twitter.com/Banjo_darah"
             target="_Blank"
             className="mx-[0.5rem]"
           >
@@ -2512,6 +2348,7 @@ export function LandingPage() {
             </svg>
           </a>
         </div>
+        </TextAnimatedDiv>
       </div>
     </div>
   );
