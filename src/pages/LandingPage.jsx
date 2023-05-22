@@ -1,5 +1,12 @@
 import { CSSTransition } from "react-transition-group";
 
+///////////////// CAVEMEN ///////////////
+
+import cm1 from "../assets/cm1.webp";
+import cm2 from "../assets/cm2.webp";
+import cm3 from "../assets/cm3.webp";
+import cm4 from "../assets/cm4.webp";
+
 ////////// RUGER /////////////////
 
 import ruger1 from "../assets/ruger1.jpg";
@@ -16,6 +23,15 @@ import ruger11 from "../assets/ruger11.jpg";
 import ruger12 from "../assets/ruger12.jpg";
 import rugersingle from "../assets/rugersingle.jpg";
 
+/////////////// OLAMIDE ///////////////
+
+import olamide1 from "../assets/olamide1.jpg";
+import olamide2 from "../assets/olamide2.jpg";
+import olamide3 from "../assets/olamide3.jpg";
+import olamide4 from "../assets/olamide4.jpg";
+import olamide5 from "../assets/olamide5.jpg";
+import olamide6 from "../assets/olamide6.jpg";
+
 /////////////////DAVIDO///////////////////
 
 import davido1 from "../assets/davido1.jpg";
@@ -26,6 +42,12 @@ import davido5 from "../assets/davido5.jpg";
 import davido6 from "../assets/davido6.jpg";
 import davido7 from "../assets/davido7.jpg";
 import davido8 from "../assets/davido8.jpg";
+
+
+///////////// OXLADE //////////////////
+
+import oxlade1 from "../assets/oxlade1.jpg";
+import oxlade2 from "../assets/oxlade2.jpg";
 
 ////////////////ZLATAN//////////////////
 import zlatan1 from "../assets/zlatan1.jpg";
@@ -55,8 +77,6 @@ import pato8 from "../assets/pato8.jpg";
 
 ////////////////////////Hennessy////////////////
 
-import Hennessy1 from "../assets/Hennessy1.jpg";
-import Hennessy2 from "../assets/Hennessy2.jpg";
 import Hennessy3 from "../assets/Hennessy3.jpg";
 import Hennessy4 from "../assets/Hennessy4.jpg";
 import Hennessy5 from "../assets/Hennessy5.jpg";
@@ -66,7 +86,35 @@ import Hennessy8 from "../assets/Hennessy8.jpg";
 import Hennessy9 from "../assets/Hennessy9.jpg";
 import Hennessy10 from "../assets/Hennessy10.jpg";
 
+/////////////////////// JHONNY DRILLE /////////////////////
 
+import jd1 from "../assets/jd1.jpg";
+import jd2 from "../assets/jd2.jpg";
+
+///////////////////// VEE ///////////////////
+
+import vee1 from "../assets/vee1.jpg";
+import vee2 from "../assets/vee2.jpg";
+import vee3 from "../assets/vee3.jpg";
+import vee4 from "../assets/vee4.jpg";
+import vee5 from "../assets/vee5.jpg";
+import vee6 from "../assets/vee6.jpg";
+
+/////////////// MAGIXX /////////////////
+
+import magixx1 from "../assets/magixx1.jpg";
+import magixx2 from "../assets/magixx2.jpg";
+import magixx3 from "../assets/magixx3.jpg";
+import magixx4 from "../assets/magixx4.jpg";
+import magixx5 from "../assets/magixx5.jpg";
+import magixx6 from "../assets/magixx6.jpg";
+import magixx7 from "../assets/magixx7.jpg";
+import magixx8 from "../assets/magixx8.jpg";
+
+/////////////// BAD BOY TIMZ ///////////////////
+
+import bbt1 from "../assets/bbt1.jpg";
+import bbt2 from "../assets/bbt2.jpg";
 
 import moon1 from "../assets/moon1.jpg";
 import moon2 from "../assets/moon2.jpg";
@@ -270,85 +318,85 @@ export function LandingPage() {
             {/* SLIDES///// */}
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             {/* SAME SLIDES (DOUBLED)//////// */}
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Ruger</h5>
+              <h5 className="text-[4vw]">Ruger</h5>
             </div>
           </div>
         </div>
@@ -455,85 +503,85 @@ export function LandingPage() {
             {/* SLIDES///// */}
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             {/* SAME SLIDES (DOUBLED)//////// */}
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Davido</h5>
+              <h5 className="text-[4vw]">Davido</h5>
             </div>
           </div>
         </div>
@@ -598,90 +646,225 @@ export function LandingPage() {
           </div>
         </div>
 
+        
         <div className="dara-main mt-[2rem]">
           <div className="dara-slidetrack">
             {/* SLIDES///// */}
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             {/* SAME SLIDES (DOUBLED)//////// */}
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Zlatan</h5>
+              <h5 className="text-[4vw]">Olamide</h5>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={olamide1}
+              alt="Olamide"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={olamide2}
+              alt="Olamide"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={olamide3}
+              alt="Olamide"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={olamide4}
+              alt="Olamide"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={olamide5}
+              alt="Olamide"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={olamide6}
+              alt="Olamide"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Zlatan</h5>
             </div>
           </div>
         </div>
@@ -737,85 +920,85 @@ export function LandingPage() {
             {/* SLIDES///// */}
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             {/* SAME SLIDES (DOUBLED)//////// */}
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className=" dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
 
             <div className="dara-slide softtools">
-              <h5>Patoranking</h5>
+              <h5 className="text-[4vw]">Patoranking</h5>
             </div>
           </div>
         </div>
@@ -874,6 +1057,111 @@ export function LandingPage() {
             <img
               src={pato8}
               alt="Patoranking"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Oxlade</h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={oxlade1}
+              alt="Oxlade"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={oxlade2}
+              alt="Oxlade"
               className="funke lg:h-[80vh] w-[45vw]"
             />
           </div>
@@ -1090,20 +1378,6 @@ export function LandingPage() {
         <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
           <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
             <img
-              src={Hennessy1}
-              alt="Hennessy"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
-              src={Hennessy2}
-              alt="Hennessy"
-              className="funke lg:h-[80vh] w-[45vw]"
-            />
-          </div>
-          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
-            <img
               src={Hennessy3}
               alt="Hennessy"
               className="funke lg:h-[80vh] w-[45vw]"
@@ -1159,6 +1433,620 @@ export function LandingPage() {
             />
           </div>
         </div>
+
+        
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Jhonny Drille</h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={jd1}
+              alt="Jhonny Drille"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={jd2}
+              alt="Jhonny Drille"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Vee</h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={vee1}
+              alt="Vee"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={vee2}
+              alt="Vee"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={vee3}
+              alt="Vee"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={vee4}
+              alt="Vee"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={vee5}
+              alt="Vee"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={vee6}
+              alt="Vee"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Magixx</h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx1}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx2}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx3}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx4}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx5}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx6}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx7}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={magixx8}
+              alt="Magixx"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Timz</h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={bbt1}
+              alt="Bad Boy Timz"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={bbt2}
+              alt="Bad Boy Timz"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+        
+        <div className="dara-main mt-[2rem]">
+          <div className="dara-slidetrack">
+            {/* SLIDES///// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            {/* SAME SLIDES (DOUBLED)//////// */}
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className=" dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+
+            <div className="dara-slide softtools">
+              <h5 className="text-[4vw]">Cavemen</h5>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 mt-[-1rem] items-center justify-center">
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={cm1}
+              alt="Cavemen"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={cm2}
+              alt="Cavemen"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={cm3}
+              alt="Cavemen"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+          <div className="bg-[#d9d9d9] w-[45vw] lg:w-[30vw]">
+            <img
+              src={cm4}
+              alt="Cavemen"
+              className="funke lg:h-[80vh] w-[45vw]"
+            />
+          </div>
+        </div>
+
+       
         
         <TextAnimatedDiv>
           <p className=" text-[7vw] mt-[2rem] lg:text-[3vw] text-[#d9d9d9] text-center">
